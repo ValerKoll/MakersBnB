@@ -1,0 +1,91 @@
+#wrapper {
+    background-color: rgb(229, 229, 229);
+    width: 80%;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+#header {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+#nav {
+    width: 95%;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c4a965;
+    padding: 10px;
+    border: 1px solid black;
+}
+#logo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+    #logo img {
+        width: 55px;
+    }
+
+#menu {
+    text-align: right;
+    display: flex;
+    height: auto;
+}
+#main {
+    width: 95%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    text-align: center;
+}
+#list_of_spaces {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    height: 300px;
+}
+    #list_of_spaces a {
+        text-decoration: none;
+    }
+    #list_of_spaces .box {
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: 10px;
+        align-items: left;
+        border: 1px solid salmon;
+        background-color: rgb(212, 241, 241);
+    }
+    #list_of_spaces .title, .space, .descr {
+        color: blue;
+    }
+    #list_of_spaces .descr {
+        font-size: small;
+        text-align: justify;
+    }
+
+#footer {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-yellow {
+    background-color:rgb(246, 207, 106)
+}
