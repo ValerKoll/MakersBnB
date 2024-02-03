@@ -3,7 +3,7 @@ from flask import Flask, request, render_template, redirect, session
 from lib.database_connection import get_flask_database_connection
 from lib.user import User
 from lib.user_repository import UserRepository
-from lib.listing import Listing
+#from lib.listing import Listing
 from lib.listing_repository import ListingRepository
 from lib.availability import Availability
 from lib.availability_repository import AvailabilityRepository

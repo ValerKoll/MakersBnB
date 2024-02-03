@@ -11,6 +11,7 @@ pytest-playwright = "*"
 pytest-xprocess = "*"
 autopep8 = "*"
 py = "*"
+flash = "*"
 
 [dev-packages]
 
